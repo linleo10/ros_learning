@@ -1,3 +1,4 @@
+#include <iostream>
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/string.hpp>
 
@@ -12,9 +13,9 @@ public:
 		timer_ = this->create_wall_timer(
 			1ms, std::bind(&CustomPublisher::custom_callback, this)
 		);
-		publisher_ = this->create_publisher<StringType>("/custom_topic", 20);
+		publisher_ = this->create_publisher<StringType>("custom_topic", 20);
 	}
-	~CustomPublisher();
+	// ~CustomPublisher();
 
 	void custom_callback();
 
@@ -23,11 +24,14 @@ public:
 
 	std::shared_ptr<rclcpp::ParameterEventHandler> param_subscriber_;
 	OnSetParametersCallbackHandle::SharedPtr callback_handle_;
-
 };
 
 void CustomPublisher::custom_callback() {
+	RCLCPP_INFO(this->get_logger(), "CALLBACK...");
 	
+	if (rclcpp::ok()) {
+		RCLCPP_INFO(this->get_logger(), "CALLBACK...");
+	}
 }
 
 int main(int argc, char** argv)
