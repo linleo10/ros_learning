@@ -24,7 +24,6 @@ public:
 	std::shared_ptr<rclcpp::ParameterEventHandler> param_subscriber_;
 	OnSetParametersCallbackHandle::SharedPtr callback_handle_;
 
-
 };
 
 void CustomPublisher::custom_callback() {
