@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/ros_ws/build",
-  "command": "/usr/bin/g++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -isystem /opt/ros/galactic/include  -g   -std=gnu++17 -o CMakeFiles/pub.dir/src/pub.cpp.o -c /home/ros_ws/src/params_learning/src/pub.cpp",
-  "file": "/home/ros_ws/src/params_learning/src/pub.cpp"
-}
-]

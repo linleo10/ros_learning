@@ -1,9 +1,0 @@
-/home/ros_ws/build/global_interface/CMakeFiles/install/strip.dir
-/home/ros_ws/build/global_interface/CMakeFiles/install/local.dir
-/home/ros_ws/build/global_interface/CMakeFiles/install.dir
-/home/ros_ws/build/global_interface/CMakeFiles/list_install_components.dir
-/home/ros_ws/build/global_interface/CMakeFiles/rebuild_cache.dir
-/home/ros_ws/build/global_interface/CMakeFiles/edit_cache.dir
-/home/ros_ws/build/global_interface/CMakeFiles/test.dir
-/home/ros_ws/build/global_interface/CMakeFiles/global_interface_uninstall.dir
-/home/ros_ws/build/global_interface/CMakeFiles/uninstall.dir

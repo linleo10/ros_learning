@@ -1,3 +1,0 @@
-/custom_topic:
-  ros__parameters:
-    msg_text: "Test Message"

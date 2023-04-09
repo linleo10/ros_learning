@@ -1,4 +1,0 @@
-Invoking command in '/home/ros_ws/build/global_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/global_interface -- -j2 -l2
-Invoked command in '/home/ros_ws/build/global_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/global_interface -- -j2 -l2
-Invoking command in '/home/ros_ws/build/global_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ros_ws/build/global_interface
-Invoked command in '/home/ros_ws/build/global_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ros_ws/build/global_interface

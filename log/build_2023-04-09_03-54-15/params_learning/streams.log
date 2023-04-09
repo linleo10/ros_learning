@@ -1,7 +1,0 @@
-[0.044s] Invoking command in '/home/ros_ws/build/params_learning': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2
-[0.672s] [35m[1mScanning dependencies of target pub[0m
-[1.010s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
-[65.422s] make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Interrupt
-[65.423s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Interrupt
-[65.425s] make: *** [Makefile:141: all] Interrupt
-[65.425s] Invoked command in '/home/ros_ws/build/params_learning' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2

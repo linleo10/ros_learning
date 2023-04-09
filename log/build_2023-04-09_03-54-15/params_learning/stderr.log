@@ -1,3 +1,0 @@
-make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Interrupt
-make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Interrupt
-make: *** [Makefile:141: all] Interrupt
