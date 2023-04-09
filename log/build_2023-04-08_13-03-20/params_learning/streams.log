@@ -1,0 +1,11 @@
+[0.021s] Invoking command in '/home/ros_ws/build/params_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2
+[0.131s] [35m[1mScanning dependencies of target node[0m
+[0.193s] [ 50%] [32mBuilding CXX object CMakeFiles/node.dir/src/node.cpp.o[0m
+[2.834s] [100%] [32m[1mLinking CXX executable node[0m
+[2.929s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[2.930s] (.text+0x24): undefined reference to `main'
+[2.930s] collect2: error: ld returned 1 exit status
+[2.932s] make[2]: *** [CMakeFiles/node.dir/build.make:132: node] Error 1
+[2.934s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/node.dir/all] Error 2
+[2.934s] make: *** [Makefile:141: all] Error 2
+[2.936s] Invoked command in '/home/ros_ws/build/params_learning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2
