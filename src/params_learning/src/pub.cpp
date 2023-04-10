@@ -54,10 +54,6 @@ rcl_interfaces::msg::SetParametersResult CustomPublisher::paramsCallback(const s
 }
 
 void CustomPublisher::custom_callback() {
-	// RCLCPP_INFO(this->get_logger(), "CALLBACK...");
-
-	// char* msg_text = this->msg_data_;
-	
 	if (rclcpp::ok()) {
 		// RCLCPP_INFO(this->get_logger(), this->msg_data_);
 		cout << this->msg_data_ << endl;
