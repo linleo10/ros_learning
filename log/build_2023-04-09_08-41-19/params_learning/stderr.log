@@ -1,0 +1,9 @@
+[01m[K/home/ros_ws/src/params_learning/src/pub.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult CustomPublisher::paramsCallback(const std::vector<rclcpp::Parameter>&)[m[K’:
+[01m[K/home/ros_ws/src/params_learning/src/pub.cpp:47:20:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kchar*[m[K’ in assignment
+   47 |  this->msg_data_ = [01;31m[Kmsg_text[m[K;
+      |                    [01;31m[K^~~~~~~~[m[K
+      |                    [01;31m[K|[m[K
+      |                    [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

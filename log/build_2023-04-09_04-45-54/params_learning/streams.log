@@ -1,0 +1,11 @@
+[0.019s] Invoking command in '/home/ros_ws/build/params_learning': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2
+[0.063s] [35m[1mScanning dependencies of target pub[0m
+[0.126s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[1.597s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:[m[K In constructor ‘[01m[KCustomPublisher::CustomPublisher()[m[K’:
+[1.597s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:14:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_callback[m[K’ is not a member of ‘[01m[KCustomPublisher[m[K’
+[1.597s]    14 |    1ms, std::bind(&CustomPublisher::[01;31m[Kcustom_callback[m[K, this)
+[1.597s]       |                                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.268s] make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+[2.268s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Error 2
+[2.268s] make: *** [Makefile:141: all] Error 2
+[2.273s] Invoked command in '/home/ros_ws/build/params_learning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2

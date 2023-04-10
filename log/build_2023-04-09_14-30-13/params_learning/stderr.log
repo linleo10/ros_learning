@@ -1,0 +1,25 @@
+[01m[K/home/ros_ws/src/params_learning/src/pub.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult CustomPublisher::paramsCallback(const std::vector<rclcpp::Parameter>&)[m[K’:
+[01m[K/home/ros_ws/src/params_learning/src/pub.cpp:50:15:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar*[m[K’ [[01;31m[K-fpermissive[m[K]
+   50 |  strcpy([01;31m[Kthis->msg_data_[m[K, msg_text.c_str());
+      |         [01;31m[K~~~~~~^~~~~~~~~[m[K
+      |               [01;31m[K|[m[K
+      |               [01;31m[Kconst char*[m[K
+In file included from [01m[K/opt/ros/galactic/include/rcutils/error_handling.h:34[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcutils/logging.h:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:3[m[K:
+[01m[K/usr/include/string.h:122:39:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kchar* strcpy(char*, const char*)[m[K’
+  122 | extern char *strcpy ([01;36m[Kchar *__restrict __dest[m[K, const char *__restrict __src)
+      |                      [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~[m[K
+make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

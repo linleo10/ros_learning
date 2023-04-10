@@ -1,0 +1,26 @@
+[0.039s] Invoking command in '/home/ros_ws/build/params_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2
+[0.097s] [35m[1mScanning dependencies of target pub[0m
+[0.125s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[1.817s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:28:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+[1.817s]    28 |  rcl_interfaces::msg::SetParametersResult ([01;31m[Kconst[m[K std::vector<rclcpp::Parameter>& params);
+[1.817s]       |                                            [01;31m[K^~~~~[m[K
+[1.817s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:28:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+[1.817s]    28 |  rcl_interfaces::msg::SetParametersResult [34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::vector<rclcpp::Parameter>& params);
+[1.817s]       |                                           [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+[1.817s]       |                                            [32m[K)[m[K
+[1.887s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:[m[K In constructor ‘[01m[KCustomPublisher::CustomPublisher()[m[K’:
+[1.887s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:22:32:[m[K [01;31m[Kerror: [m[K‘[01m[KparamsCallback[m[K’ is not a member of ‘[01m[KCustomPublisher[m[K’
+[1.887s]    22 |    std::bind(&CustomPublisher::[01;31m[KparamsCallback[m[K, this, placeholders::_1)
+[1.887s]       |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.110s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:[m[K At global scope:
+[2.110s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:40:42:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Krcl_interfaces::msg::SetParametersResult CustomPublisher::paramsCallback(const std::vector<rclcpp::Parameter>&)[m[K’
+[2.111s]    40 | rcl_interfaces::msg::SetParametersResult [01;31m[KCustomPublisher[m[K::paramsCallback(const std::vector<rclcpp::Parameter>& params) {
+[2.111s]       |                                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.111s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:40:42:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Krcl_interfaces::msg::SetParametersResult CustomPublisher::paramsCallback(const std::vector<rclcpp::Parameter>&)[m[K’
+[2.112s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass CustomPublisher[m[K’ defined here
+[2.112s]    10 | class [01;36m[KCustomPublisher[m[K: public rclcpp::Node
+[2.112s]       |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+[2.803s] make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+[2.803s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Error 2
+[2.804s] make: *** [Makefile:141: all] Error 2
+[2.819s] Invoked command in '/home/ros_ws/build/params_learning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2

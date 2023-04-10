@@ -1,0 +1,6 @@
+/usr/bin/ld: CMakeFiles/pub.dir/src/pub.cpp.o: in function `CustomPublisher::CustomPublisher()':
+pub.cpp:(.text._ZN15CustomPublisherC2Ev[_ZN15CustomPublisherC5Ev]+0xe6): undefined reference to `vtable for CustomPublisher'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/pub.dir/build.make:132: pub] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

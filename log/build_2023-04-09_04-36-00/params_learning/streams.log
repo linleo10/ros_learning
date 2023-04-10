@@ -1,0 +1,11 @@
+[0.029s] Invoking command in '/home/ros_ws/build/params_learning': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2
+[0.108s] [35m[1mScanning dependencies of target pub[0m
+[0.158s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[3.672s] [100%] [32m[1mLinking CXX executable pub[0m
+[3.906s] /usr/bin/ld: CMakeFiles/pub.dir/src/pub.cpp.o: in function `CustomPublisher::CustomPublisher()':
+[3.906s] pub.cpp:(.text._ZN15CustomPublisherC2Ev[_ZN15CustomPublisherC5Ev]+0xe6): undefined reference to `vtable for CustomPublisher'
+[3.906s] collect2: error: ld returned 1 exit status
+[3.909s] make[2]: *** [CMakeFiles/pub.dir/build.make:132: pub] Error 1
+[3.909s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Error 2
+[3.909s] make: *** [Makefile:141: all] Error 2
+[3.909s] Invoked command in '/home/ros_ws/build/params_learning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2

@@ -1,0 +1,13 @@
+[0.020s] Invoking command in '/home/ros_ws/build/params_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2
+[0.161s] [35m[1mScanning dependencies of target pub[0m
+[0.245s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[2.170s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:[m[K In member function ‘[01m[Kvoid CustomPublisher::custom_callback()[m[K’:
+[2.170s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:53:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kchar*[m[K’ in initialization
+[2.170s]    53 |  char* msg_text = [01;31m[Kthis->msg_data_[m[K;
+[2.170s]       |                   [01;31m[K~~~~~~^~~~~~~~~[m[K
+[2.170s]       |                         [01;31m[K|[m[K
+[2.170s]       |                         [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[2.959s] make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+[2.960s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Error 2
+[2.961s] make: *** [Makefile:141: all] Error 2
+[3.024s] Invoked command in '/home/ros_ws/build/params_learning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2

@@ -1,0 +1,30 @@
+[0.018s] Invoking command in '/home/ros_ws/build/params_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2
+[0.086s] [35m[1mScanning dependencies of target pub[0m
+[0.123s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[3.419s] [100%] [32m[1mLinking CXX executable pub[0m
+[3.578s] [100%] Built target pub
+[3.585s] Invoked command in '/home/ros_ws/build/params_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2
+[3.603s] Invoking command in '/home/ros_ws/build/params_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ros_ws/build/params_learning
+[3.610s] -- Install configuration: ""
+[3.611s] -- Installing: /home/ros_ws/install/params_learning/lib/params_learning/pub
+[3.612s] -- Set runtime path of "/home/ros_ws/install/params_learning/lib/params_learning/pub" to ""
+[3.612s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/launch
+[3.612s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/launch/node.launch.py
+[3.612s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/config
+[3.612s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/config/params.yaml
+[3.612s] -- Up-to-date: /home/ros_ws/install/params_learning/share/ament_index/resource_index/package_run_dependencies/params_learning
+[3.612s] -- Up-to-date: /home/ros_ws/install/params_learning/share/ament_index/resource_index/parent_prefix_path/params_learning
+[3.612s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/environment/ament_prefix_path.sh
+[3.612s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/environment/ament_prefix_path.dsv
+[3.612s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/environment/path.sh
+[3.612s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/environment/path.dsv
+[3.612s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/local_setup.bash
+[3.613s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/local_setup.sh
+[3.613s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/local_setup.zsh
+[3.613s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/local_setup.dsv
+[3.613s] -- Installing: /home/ros_ws/install/params_learning/share/params_learning/package.dsv
+[3.613s] -- Up-to-date: /home/ros_ws/install/params_learning/share/ament_index/resource_index/packages/params_learning
+[3.613s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/cmake/params_learningConfig.cmake
+[3.614s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/cmake/params_learningConfig-version.cmake
+[3.614s] -- Up-to-date: /home/ros_ws/install/params_learning/share/params_learning/package.xml
+[3.619s] Invoked command in '/home/ros_ws/build/params_learning' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ros_ws/build/params_learning

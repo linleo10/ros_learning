@@ -1,0 +1,22 @@
+[01m[K/home/ros_ws/src/params_learning/src/pub.cpp:28:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kconst[m[K’
+   28 |  rcl_interfaces::msg::SetParametersResult ([01;31m[Kconst[m[K std::vector<rclcpp::Parameter>& params);
+      |                                            [01;31m[K^~~~~[m[K
+[01m[K/home/ros_ws/src/params_learning/src/pub.cpp:28:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kconst[m[K’
+   28 |  rcl_interfaces::msg::SetParametersResult [34m[K([m[K[01;31m[Kc[m[K[32m[Konst[m[K std::vector<rclcpp::Parameter>& params);
+      |                                           [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~[m[K
+      |                                            [32m[K)[m[K
+[01m[K/home/ros_ws/src/params_learning/src/pub.cpp:[m[K In constructor ‘[01m[KCustomPublisher::CustomPublisher()[m[K’:
+[01m[K/home/ros_ws/src/params_learning/src/pub.cpp:22:32:[m[K [01;31m[Kerror: [m[K‘[01m[KparamsCallback[m[K’ is not a member of ‘[01m[KCustomPublisher[m[K’
+   22 |    std::bind(&CustomPublisher::[01;31m[KparamsCallback[m[K, this, placeholders::_1)
+      |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/src/params_learning/src/pub.cpp:[m[K At global scope:
+[01m[K/home/ros_ws/src/params_learning/src/pub.cpp:40:42:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Krcl_interfaces::msg::SetParametersResult CustomPublisher::paramsCallback(const std::vector<rclcpp::Parameter>&)[m[K’
+   40 | rcl_interfaces::msg::SetParametersResult [01;31m[KCustomPublisher[m[K::paramsCallback(const std::vector<rclcpp::Parameter>& params) {
+      |                                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ros_ws/src/params_learning/src/pub.cpp:40:42:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Krcl_interfaces::msg::SetParametersResult CustomPublisher::paramsCallback(const std::vector<rclcpp::Parameter>&)[m[K’
+[01m[K/home/ros_ws/src/params_learning/src/pub.cpp:10:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass CustomPublisher[m[K’ defined here
+   10 | class [01;36m[KCustomPublisher[m[K: public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

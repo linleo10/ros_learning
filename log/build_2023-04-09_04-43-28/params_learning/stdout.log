@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable pub[0m
+[100%] Built target pub
+-- Install configuration: ""
+-- Installing: /home/ros_ws/install/params_learning/lib/params_learning/pub
+-- Set runtime path of "/home/ros_ws/install/params_learning/lib/params_learning/pub" to ""
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/launch
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/launch/node.launch.py
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/config
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/config/params.yaml
+-- Installing: /home/ros_ws/install/params_learning/share/ament_index/resource_index/package_run_dependencies/params_learning
+-- Installing: /home/ros_ws/install/params_learning/share/ament_index/resource_index/parent_prefix_path/params_learning
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/environment/ament_prefix_path.sh
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/environment/ament_prefix_path.dsv
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/environment/path.sh
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/environment/path.dsv
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/local_setup.bash
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/local_setup.sh
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/local_setup.zsh
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/local_setup.dsv
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/package.dsv
+-- Installing: /home/ros_ws/install/params_learning/share/ament_index/resource_index/packages/params_learning
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/cmake/params_learningConfig.cmake
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/cmake/params_learningConfig-version.cmake
+-- Installing: /home/ros_ws/install/params_learning/share/params_learning/package.xml

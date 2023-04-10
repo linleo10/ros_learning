@@ -1,0 +1,20 @@
+[0.028s] Invoking command in '/home/ros_ws/build/global_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/global_interface -- -j2 -l2
+[0.080s] Invoked command in '/home/ros_ws/build/global_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/global_interface -- -j2 -l2
+[0.119s] Invoking command in '/home/ros_ws/build/global_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ros_ws/build/global_interface
+[0.150s] -- Install configuration: ""
+[0.150s] -- Up-to-date: /home/ros_ws/install/global_interface/share/ament_index/resource_index/package_run_dependencies/global_interface
+[0.150s] -- Up-to-date: /home/ros_ws/install/global_interface/share/ament_index/resource_index/parent_prefix_path/global_interface
+[0.150s] -- Up-to-date: /home/ros_ws/install/global_interface/share/global_interface/environment/ament_prefix_path.sh
+[0.151s] -- Up-to-date: /home/ros_ws/install/global_interface/share/global_interface/environment/ament_prefix_path.dsv
+[0.151s] -- Up-to-date: /home/ros_ws/install/global_interface/share/global_interface/environment/path.sh
+[0.151s] -- Up-to-date: /home/ros_ws/install/global_interface/share/global_interface/environment/path.dsv
+[0.151s] -- Up-to-date: /home/ros_ws/install/global_interface/share/global_interface/local_setup.bash
+[0.151s] -- Up-to-date: /home/ros_ws/install/global_interface/share/global_interface/local_setup.sh
+[0.151s] -- Up-to-date: /home/ros_ws/install/global_interface/share/global_interface/local_setup.zsh
+[0.151s] -- Up-to-date: /home/ros_ws/install/global_interface/share/global_interface/local_setup.dsv
+[0.151s] -- Installing: /home/ros_ws/install/global_interface/share/global_interface/package.dsv
+[0.151s] -- Up-to-date: /home/ros_ws/install/global_interface/share/ament_index/resource_index/packages/global_interface
+[0.151s] -- Up-to-date: /home/ros_ws/install/global_interface/share/global_interface/cmake/global_interfaceConfig.cmake
+[0.151s] -- Up-to-date: /home/ros_ws/install/global_interface/share/global_interface/cmake/global_interfaceConfig-version.cmake
+[0.151s] -- Up-to-date: /home/ros_ws/install/global_interface/share/global_interface/package.xml
+[0.159s] Invoked command in '/home/ros_ws/build/global_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --install /home/ros_ws/build/global_interface

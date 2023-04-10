@@ -1,0 +1,13 @@
+[0.024s] Invoking command in '/home/ros_ws/build/params_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2
+[0.182s] [35m[1mScanning dependencies of target pub[0m
+[0.236s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[2.215s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult CustomPublisher::paramsCallback(const std::vector<rclcpp::Parameter>&)[m[K’:
+[2.216s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:48:34:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst char*[m[K’ to ‘[01m[Kchar*[m[K’ [[01;31m[K-fpermissive[m[K]
+[2.216s]    48 |  this->msg_data_ = [01;31m[Kmsg_text.c_str()[m[K;
+[2.216s]       |                    [01;31m[K~~~~~~~~~~~~~~^~[m[K
+[2.216s]       |                                  [01;31m[K|[m[K
+[2.216s]       |                                  [01;31m[Kconst char*[m[K
+[2.945s] make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+[2.948s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Error 2
+[2.950s] make: *** [Makefile:141: all] Error 2
+[2.950s] Invoked command in '/home/ros_ws/build/params_learning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2

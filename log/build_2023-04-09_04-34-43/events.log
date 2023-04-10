@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000579] (global_interface) JobQueued: {'identifier': 'global_interface', 'dependencies': OrderedDict()}
+[0.000616] (params_learning) JobQueued: {'identifier': 'params_learning', 'dependencies': OrderedDict()}
+[0.000637] (global_interface) JobStarted: {'identifier': 'global_interface'}
+[0.010720] (params_learning) JobStarted: {'identifier': 'params_learning'}
+[0.020757] (global_interface) JobProgress: {'identifier': 'global_interface', 'progress': 'cmake'}
+[0.021231] (global_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/ros_ws/src/global_interface', '-DCMAKE_INSTALL_PREFIX=/home/ros_ws/install/global_interface'], 'cwd': '/home/ros_ws/build/global_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SSH_CLIENT', '112.41.8.17 3192 36019'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BROWSER', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.77.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-746c6602-655e-4dae-bc5d-ffe05e9d0a02.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1987'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-146590f331.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros_ws/build/global_interface'), ('SSH_CONNECTION', '112.41.8.17 3192 45.150.164.214 36019'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.026254] (params_learning) JobProgress: {'identifier': 'params_learning', 'progress': 'cmake'}
+[0.027487] (params_learning) Command: {'cmd': ['/usr/bin/cmake', '/home/ros_ws/src/params_learning', '-DCMAKE_INSTALL_PREFIX=/home/ros_ws/install/params_learning'], 'cwd': '/home/ros_ws/build/params_learning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SSH_CLIENT', '112.41.8.17 3192 36019'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BROWSER', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.77.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-746c6602-655e-4dae-bc5d-ffe05e9d0a02.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1987'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-146590f331.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros_ws/build/params_learning'), ('SSH_CONNECTION', '112.41.8.17 3192 45.150.164.214 36019'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.099685] (-) TimerEvent: {}
+[0.137223] (global_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.176195] (params_learning) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.189938] (global_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.198404] (global_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199741] (-) TimerEvent: {}
+[0.241620] (params_learning) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.247521] (params_learning) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.279145] (global_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.282834] (global_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299872] (-) TimerEvent: {}
+[0.332531] (params_learning) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.333162] (params_learning) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.363755] (global_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.374668] (global_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.375372] (global_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.386357] (global_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.399961] (-) TimerEvent: {}
+[0.450944] (params_learning) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.461761] (params_learning) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.464395] (params_learning) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.464576] (params_learning) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500422] (-) TimerEvent: {}
+[0.508614] (global_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.508807] (global_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.560517] (params_learning) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.560715] (params_learning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.582019] (global_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.599698] (global_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.599909] (global_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.600481] (-) TimerEvent: {}
+[0.605041] (global_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.631667] (global_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.632047] (global_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.651545] (params_learning) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.666541] (params_learning) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.667210] (params_learning) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.672585] (params_learning) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.691422] (params_learning) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.691672] (params_learning) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.700563] (-) TimerEvent: {}
+[0.729193] (global_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.800683] (-) TimerEvent: {}
+[0.801767] (global_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.802937] (params_learning) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.803398] (global_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.804179] (global_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.805492] (global_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.807544] (global_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[0.808335] (global_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/ros_ws/build/global_interface\n'}
+[0.811721] (global_interface) CommandEnded: {'returncode': 0}
+[0.812669] (global_interface) JobProgress: {'identifier': 'global_interface', 'progress': 'build'}
+[0.813339] (global_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros_ws/build/global_interface', '--', '-j2', '-l2'], 'cwd': '/home/ros_ws/build/global_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SSH_CLIENT', '112.41.8.17 3192 36019'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BROWSER', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.77.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-746c6602-655e-4dae-bc5d-ffe05e9d0a02.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1987'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-146590f331.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros_ws/build/global_interface'), ('SSH_CONNECTION', '112.41.8.17 3192 45.150.164.214 36019'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.861606] (global_interface) CommandEnded: {'returncode': 0}
+[0.870325] (params_learning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.875103] (params_learning) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.888030] (global_interface) JobProgress: {'identifier': 'global_interface', 'progress': 'install'}
+[0.897830] (global_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros_ws/build/global_interface'], 'cwd': '/home/ros_ws/build/global_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SSH_CLIENT', '112.41.8.17 3192 36019'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BROWSER', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.77.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-746c6602-655e-4dae-bc5d-ffe05e9d0a02.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1987'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-146590f331.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros_ws/build/global_interface'), ('SSH_CONNECTION', '112.41.8.17 3192 45.150.164.214 36019'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.900800] (-) TimerEvent: {}
+[0.925028] (global_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.925228] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/ament_index/resource_index/package_run_dependencies/global_interface\n'}
+[0.925299] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/ament_index/resource_index/parent_prefix_path/global_interface\n'}
+[0.925360] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/global_interface/environment/ament_prefix_path.sh\n'}
+[0.925418] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/global_interface/environment/ament_prefix_path.dsv\n'}
+[0.925474] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/global_interface/environment/path.sh\n'}
+[0.925528] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/global_interface/environment/path.dsv\n'}
+[0.925583] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/global_interface/local_setup.bash\n'}
+[0.925636] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/global_interface/local_setup.sh\n'}
+[0.925689] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/global_interface/local_setup.zsh\n'}
+[0.925743] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/global_interface/local_setup.dsv\n'}
+[0.925796] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/global_interface/package.dsv\n'}
+[0.925848] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/ament_index/resource_index/packages/global_interface\n'}
+[0.925900] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/global_interface/cmake/global_interfaceConfig.cmake\n'}
+[0.925951] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/global_interface/cmake/global_interfaceConfig-version.cmake\n'}
+[0.926004] (global_interface) StdoutLine: {'line': b'-- Installing: /home/ros_ws/install/global_interface/share/global_interface/package.xml\n'}
+[0.926572] (global_interface) CommandEnded: {'returncode': 0}
+[0.960666] (params_learning) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.982142] (params_learning) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include  \n'}
+[1.002184] (-) TimerEvent: {}
+[1.009019] (global_interface) JobEnded: {'identifier': 'global_interface', 'rc': 0}
+[1.050921] (params_learning) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.100901] (params_learning) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[1.102422] (-) TimerEvent: {}
+[1.103283] (params_learning) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.118423] (params_learning) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.120678] (params_learning) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.208185] (-) TimerEvent: {}
+[1.232271] (params_learning) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.232517] (params_learning) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.304248] (params_learning) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.304457] (params_learning) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.308252] (-) TimerEvent: {}
+[1.352329] (params_learning) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.352544] (params_learning) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.400651] (params_learning) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.400884] (params_learning) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.408335] (-) TimerEvent: {}
+[1.508622] (-) TimerEvent: {}
+[1.528533] (params_learning) StdoutLine: {'line': b'-- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)\n'}
+[1.571021] (params_learning) StdoutLine: {'line': b'-- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)\n'}
+[1.571724] (params_learning) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 9.2.2 (/opt/ros/galactic/share/rclcpp_lifecycle/cmake)\n'}
+[1.595418] (params_learning) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[1.608736] (-) TimerEvent: {}
+[1.682595] (params_learning) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[1.708840] (-) TimerEvent: {}
+[1.751397] (params_learning) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.753383] (params_learning) StdoutLine: {'line': b'-- Generating done\n'}
+[1.755081] (params_learning) StdoutLine: {'line': b'-- Build files have been written to: /home/ros_ws/build/params_learning\n'}
+[1.772263] (params_learning) CommandEnded: {'returncode': 0}
+[1.773029] (params_learning) JobProgress: {'identifier': 'params_learning', 'progress': 'build'}
+[1.773071] (params_learning) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros_ws/build/params_learning', '--', '-j2', '-l2'], 'cwd': '/home/ros_ws/build/params_learning', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SSH_CLIENT', '112.41.8.17 3192 36019'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('BROWSER', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.77.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-746c6602-655e-4dae-bc5d-ffe05e9d0a02.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1987'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/b7886d7461186a5eac768481578c1d7ca80e2d21/bin/remote-cli:/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-146590f331.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros_ws/build/params_learning'), ('SSH_CONNECTION', '112.41.8.17 3192 45.150.164.214 36019'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.807438] (params_learning) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pub\x1b[0m\n'}
+[1.808915] (-) TimerEvent: {}
+[1.909306] (-) TimerEvent: {}
+[1.928151] (params_learning) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o\x1b[0m\n'}
+[2.009428] (-) TimerEvent: {}
+[2.109817] (-) TimerEvent: {}
+[2.210273] (-) TimerEvent: {}
+[2.311040] (-) TimerEvent: {}
+[2.411680] (-) TimerEvent: {}
+[2.512022] (-) TimerEvent: {}
+[2.612568] (-) TimerEvent: {}
+[2.712973] (-) TimerEvent: {}
+[2.813351] (-) TimerEvent: {}
+[2.913797] (-) TimerEvent: {}
+[3.014164] (-) TimerEvent: {}
+[3.114523] (-) TimerEvent: {}
+[3.214931] (-) TimerEvent: {}
+[3.315591] (-) TimerEvent: {}
+[3.416237] (-) TimerEvent: {}
+[3.516750] (-) TimerEvent: {}
+[3.617177] (-) TimerEvent: {}
+[3.717599] (-) TimerEvent: {}
+[3.818030] (-) TimerEvent: {}
+[3.918410] (-) TimerEvent: {}
+[4.019019] (-) TimerEvent: {}
+[4.119668] (-) TimerEvent: {}
+[4.220205] (-) TimerEvent: {}
+[4.320599] (-) TimerEvent: {}
+[4.421004] (-) TimerEvent: {}
+[4.521382] (-) TimerEvent: {}
+[4.621790] (-) TimerEvent: {}
+[4.722197] (-) TimerEvent: {}
+[4.822584] (-) TimerEvent: {}
+[4.923015] (-) TimerEvent: {}
+[5.024272] (-) TimerEvent: {}
+[5.125315] (-) TimerEvent: {}
+[5.225722] (-) TimerEvent: {}
+[5.326107] (-) TimerEvent: {}
+[5.426452] (-) TimerEvent: {}
+[5.434953] (params_learning) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub\x1b[0m\n'}
+[5.526587] (-) TimerEvent: {}
+[5.598722] (params_learning) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/pub.dir/src/pub.cpp.o: in function `CustomPublisher::CustomPublisher()':\n"}
+[5.598987] (params_learning) StderrLine: {'line': b"pub.cpp:(.text._ZN15CustomPublisherC2Ev[_ZN15CustomPublisherC5Ev]+0xe6): undefined reference to `vtable for CustomPublisher'\n"}
+[5.599058] (params_learning) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[5.600463] (params_learning) StderrLine: {'line': b'make[2]: *** [CMakeFiles/pub.dir/build.make:132: pub] Error 1\n'}
+[5.600884] (params_learning) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Error 2\n'}
+[5.600980] (params_learning) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.605111] (params_learning) CommandEnded: {'returncode': 2}
+[5.627779] (-) TimerEvent: {}
+[5.633623] (params_learning) JobEnded: {'identifier': 'params_learning', 'rc': 2}
+[5.636335] (-) EventReactorShutdown: {}

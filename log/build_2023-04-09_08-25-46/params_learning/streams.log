@@ -1,0 +1,38 @@
+[0.024s] Invoking command in '/home/ros_ws/build/params_learning': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2
+[0.086s] [35m[1mScanning dependencies of target pub[0m
+[0.144s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[2.014s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[2.015s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[2.016s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[2.017s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[2.018s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.019s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[2.019s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[2.020s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.020s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.020s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.020s]                  from [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:2[m[K:
+[2.020s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:[m[K In member function ‘[01m[Kvoid CustomPublisher::custom_callback()[m[K’:
+[2.020s] [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:54:41:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[2.020s]    54 |   RCLCPP_INFO(this->get_logger(), [01;31m[Kthis->msg_text[m[K);
+[2.020s]       |                                   [01;31m[K~~~~~~^~~~~~~~[m[K
+[2.020s]       |                                         [01;31m[K|[m[K
+[2.021s]       |                                         [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[2.021s] In file included from [01m[K/opt/ros/galactic/include/rmw/types.h:28[m[K,
+[2.021s]                  from [01m[K/opt/ros/galactic/include/rcl/types.h:20[m[K,
+[2.021s]                  from [01m[K/opt/ros/galactic/include/rcl/log_level.h:22[m[K,
+[2.021s]                  from [01m[K/opt/ros/galactic/include/rcl/arguments.h:21[m[K,
+[2.021s]                  from [01m[K/opt/ros/galactic/include/rcl/context.h:28[m[K,
+[2.021s]                  from [01m[K/opt/ros/galactic/include/rcl/guard_condition.h:26[m[K,
+[2.021s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:30[m[K,
+[2.021s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.021s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[2.021s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[2.021s]                  from [01m[K/home/ros_ws/src/params_learning/src/pub.cpp:2[m[K:
+[2.021s] [01m[K/opt/ros/galactic/include/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[2.021s]   479 |   [01;36m[Kconst char * format[m[K,
+[2.021s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[2.763s] make[2]: *** [CMakeFiles/pub.dir/build.make:63: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+[2.763s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Error 2
+[2.764s] make: *** [Makefile:141: all] Error 2
+[2.823s] Invoked command in '/home/ros_ws/build/params_learning' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2

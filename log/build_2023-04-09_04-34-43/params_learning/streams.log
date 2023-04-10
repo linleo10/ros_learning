@@ -1,0 +1,56 @@
+[0.018s] Invoking command in '/home/ros_ws/build/params_learning': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ros_ws/src/params_learning -DCMAKE_INSTALL_PREFIX=/home/ros_ws/install/params_learning
+[0.166s] -- The C compiler identification is GNU 9.4.0
+[0.231s] -- The CXX compiler identification is GNU 9.4.0
+[0.237s] -- Check for working C compiler: /usr/bin/cc
+[0.322s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.322s] -- Detecting C compiler ABI info
+[0.440s] -- Detecting C compiler ABI info - done
+[0.454s] -- Detecting C compile features
+[0.454s] -- Detecting C compile features - done
+[0.454s] -- Check for working CXX compiler: /usr/bin/c++
+[0.550s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.550s] -- Detecting CXX compiler ABI info
+[0.641s] -- Detecting CXX compiler ABI info - done
+[0.656s] -- Detecting CXX compile features
+[0.657s] -- Detecting CXX compile features - done
+[0.662s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.681s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.681s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.792s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.860s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.865s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.950s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.972s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.041s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.090s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.093s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.108s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.110s] -- Looking for pthread.h
+[1.222s] -- Looking for pthread.h - found
+[1.222s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.294s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.294s] -- Looking for pthread_create in pthreads
+[1.342s] -- Looking for pthread_create in pthreads - not found
+[1.342s] -- Looking for pthread_create in pthread
+[1.390s] -- Looking for pthread_create in pthread - found
+[1.390s] -- Found Threads: TRUE  
+[1.518s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[1.560s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[1.561s] -- Found rclcpp_lifecycle: 9.2.2 (/opt/ros/galactic/share/rclcpp_lifecycle/cmake)
+[1.585s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.672s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.741s] -- Configuring done
+[1.743s] -- Generating done
+[1.744s] -- Build files have been written to: /home/ros_ws/build/params_learning
+[1.762s] Invoked command in '/home/ros_ws/build/params_learning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ros_ws/src/params_learning -DCMAKE_INSTALL_PREFIX=/home/ros_ws/install/params_learning
+[1.763s] Invoking command in '/home/ros_ws/build/params_learning': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2
+[1.797s] [35m[1mScanning dependencies of target pub[0m
+[1.918s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[5.424s] [100%] [32m[1mLinking CXX executable pub[0m
+[5.588s] /usr/bin/ld: CMakeFiles/pub.dir/src/pub.cpp.o: in function `CustomPublisher::CustomPublisher()':
+[5.588s] pub.cpp:(.text._ZN15CustomPublisherC2Ev[_ZN15CustomPublisherC5Ev]+0xe6): undefined reference to `vtable for CustomPublisher'
+[5.588s] collect2: error: ld returned 1 exit status
+[5.590s] make[2]: *** [CMakeFiles/pub.dir/build.make:132: pub] Error 1
+[5.590s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/pub.dir/all] Error 2
+[5.590s] make: *** [Makefile:141: all] Error 2
+[5.595s] Invoked command in '/home/ros_ws/build/params_learning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ros_ws/build/params_learning -- -j2 -l2
